@@ -24,10 +24,10 @@ FraudDetec2(
 \item{...}{Survey questions to be analyzed.}
 }
 \value{
-A flextable object with the results.
+A flextable object with the fraud detection analysis results, including summary statistics for the overall sample and identified fraudulent responses.
 }
 \description{
-Fraud Detection Analysis Tool 2
+This function analyzes survey data using up to 5 Fraud Detection Questions and generates a report in Word and HTML formats.
 }
 \examples{
 if (requireNamespace("flextable", quietly = TRUE) && requireNamespace("officer", quietly = TRUE)) {
